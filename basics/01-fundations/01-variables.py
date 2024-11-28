@@ -38,4 +38,8 @@ print(variable)
 animal = "Dog"
 
 def dog_function():
-    global animal = "Cat"
+    global animal
+    animal = "Cat"
+    print(animal)
+
+dog_function()
